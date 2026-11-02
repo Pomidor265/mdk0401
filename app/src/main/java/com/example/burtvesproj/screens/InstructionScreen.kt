@@ -118,6 +118,7 @@ fun InstructionScreen(
                 ) {
                     Text("Графическая")
                 }
+            }
 
                 BottomNavigationBar(
                     selectedTab = NavTab.HOME,
@@ -126,7 +127,6 @@ fun InstructionScreen(
                     onSearchClick = onSearchClick,
                     onSettingsClick = onSettingsClick
                 )
-            }
         }
 
         if (showSheet) {
